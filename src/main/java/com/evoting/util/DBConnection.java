@@ -7,7 +7,7 @@ public class DBConnection {
 
     private static final String URL = "jdbc:mysql://localhost:3306/evoting";
     private static final String USER = "root";
-    private static final String PASS = "tiger";
+    private static final String PASS = "Puji@7657#";
 
     public static Connection getConnection() {
         Connection con = null;

@@ -50,6 +50,7 @@ public class CandidateDAOImpl implements CandidateDAO {
                 c.setName(rs.getString("name"));
                 c.setDetails(rs.getString("details"));
                 list.add(c);
+                System.out.println("hello");
             }
 
         } catch (Exception e) { e.printStackTrace(); }
