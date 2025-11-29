@@ -15,7 +15,6 @@ int eid = (int) request.getAttribute("eid");
 for(com.evoting.dto.Candidate c : clist) {
 %>
 
-
 <div class="card">
     <b><%=c.getName()%></b><br>
     <%=c.getDetails()%><br><br>

@@ -2,7 +2,7 @@
 
 <div class="container">
 
-    <a href="welcome.jsp" class="back-button">⬅ Back</a>
+    <a href="../welcome.jsp" class="back-button">⬅ Back</a>
 
     <h2>Voter Login</h2>
 
