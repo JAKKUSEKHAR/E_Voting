@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.success-card {
+    background: #ffffff;
+    max-width: 520px;
+    margin: 40px auto;
+    padding: 35px 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* ICON */
+.success-icon {
+    font-size: 42px;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+/* TITLE */
+.success-card h2 {
+    color: #1e3c72;
+    margin-bottom: 12px;
+}
+
+/* MESSAGE */
+.success-message {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* NOTE */
+.success-note {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* ACTIONS */
+.success-actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}

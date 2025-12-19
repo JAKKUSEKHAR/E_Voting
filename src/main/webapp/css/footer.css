@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* FOOTER */
+.main-footer {
+    height: 45px;
+    background-color: #0f2a44;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: auto;
+}

@@ -1,0 +1,90 @@
+/* PAGE HEADER */
+.page-header {
+    margin-bottom: 25px;
+}
+
+.page-header h2 {
+    color: #1e3c72;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #555;
+}
+
+/* EMPTY STATE */
+.empty-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    color: #777;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TABLE WRAPPER */
+.table-wrapper {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+/* TABLE */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+    padding: 14px 16px;
+    text-align: left;
+}
+
+.data-table thead {
+    background-color: #f0f3f8;
+}
+
+.data-table th {
+    font-weight: 600;
+    color: #333;
+}
+
+.data-table tr {
+    border-top: 1px solid #e6e6e6;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* STATUS BADGES */
+.badge {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.badge.running {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.badge.completed {
+    background-color: #e2e3e5;
+    color: #383d41;
+}
+
+/* ACTIONS */
+.actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.inline-form {
+    display: inline;
+}

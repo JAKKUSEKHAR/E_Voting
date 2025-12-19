@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.page-container {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.back-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results-table th,
+.results-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}

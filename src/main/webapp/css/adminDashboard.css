@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* DASHBOARD LAYOUT */
+.dashboard-container {
+    flex: 1;
+    width:100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.dashboard-title {
+    text-align: center;
+    color: #1e3c72;
+    margin-bottom: 4px;
+}
+
+.dashboard-subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* INFO CARD */
+.info-card {
+    background: #f8f9fa;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    border-left: 5px solid #0066cc;
+}
+
+.info-card p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+/* STATUS */
+.status {
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.status.admin {
+    background-color: #6f42c1;
+}
+
+/* ACTION GRID */
+.action-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.action-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.action-card h3 {
+    color: #0066cc;
+    margin-bottom: 6px;
+}
+
+.action-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.action-card:hover {
+    transform: translateY(-4px);
+}
+
+/* LOGOUT */
+.logout-section {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.logout-btn {
+    background-color: #d9534f;
+    color: #ffffff;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.logout-btn:hover {
+    background-color: #c9302c;
+}

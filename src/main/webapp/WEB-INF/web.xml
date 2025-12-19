@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+         https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <!-- Welcome File -->
+    <welcome-file-list>
+        <welcome-file>welcome.jsp</welcome-file>
+    </welcome-file-list>
+
+
+    <!-- ======================= AUTH SERVLETS ======================= -->
+
+    <!-- RegisterServlet -->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.evoting.controller.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- LoginServlet (Voter Login) -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.evoting.controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Admin Login -->
+    <servlet>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <servlet-class>com.evoting.controller.AdminLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <url-pattern>/AdminLoginServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- ======================= ADMIN SERVLETS ======================= -->
+
+    <!-- Pending Voters List -->
+    <servlet>
+        <servlet-name>PendingVotersServlet</servlet-name>
+        <servlet-class>com.evoting.controller.PendingVotersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PendingVotersServlet</servlet-name>
+        <url-pattern>/PendingVotersServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Approve Voter -->
+    <servlet>
+        <servlet-name>AdminApproveServlet</servlet-name>
+        <servlet-class>com.evoting.controller.AdminApproveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminApproveServlet</servlet-name>
+        <url-pattern>/AdminApproveServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Create Election -->
+    <servlet>
+        <servlet-name>CreateElectionServlet</servlet-name>
+        <servlet-class>com.evoting.controller.CreateElectionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateElectionServlet</servlet-name>
+        <url-pattern>/CreateElectionServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Add Candidate -->
+    <servlet>
+        <servlet-name>AddCandidateServlet</servlet-name>
+        <servlet-class>com.evoting.controller.AddCandidateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCandidateServlet</servlet-name>
+        <url-pattern>/AddCandidateServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- ======================= VOTER SERVLETS ======================= -->
+
+    <!-- Show Elections -->
+    <servlet>
+        <servlet-name>ElectionsListServlet</servlet-name>
+        <servlet-class>com.evoting.controller.ElectionsListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ElectionsListServlet</servlet-name>
+        <url-pattern>/ElectionsListServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Show Candidates -->
+    <servlet>
+        <servlet-name>CandidatesListServlet</servlet-name>
+        <servlet-class>com.evoting.controller.CandidatesListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CandidatesListServlet</servlet-name>
+        <url-pattern>/CandidatesListServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Cast Vote -->
+    <servlet>
+        <servlet-name>CastVoteServlet</servlet-name>
+        <servlet-class>com.evoting.controller.CastVoteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CastVoteServlet</servlet-name>
+        <url-pattern>/CastVoteServlet</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+    <servlet-name>LoadElectionListForCandidateServlet</servlet-name>
+    <servlet-class>com.evoting.controller.LoadElectionListForCandidateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LoadElectionListForCandidateServlet</servlet-name>
+    <url-pattern>/LoadElectionListForCandidateServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>CloseElectionServlet</servlet-name>
+    <servlet-class>com.evoting.controller.CloseElectionServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>CloseElectionServlet</servlet-name>
+    <url-pattern>/CloseElectionServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ResultsServlet</servlet-name>
+    <servlet-class>com.evoting.controller.ResultsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ResultsServlet</servlet-name>
+    <url-pattern>/ResultsServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>

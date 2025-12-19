@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+/* ADMIN LOGIN BACKGROUND */
+body.admin-login {
+     background-color: #f4f6f9;
+ }
+
+/* CONTAINER */
+.login-container {
+    min-height: calc(100vh - 105px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CARD */
+.login-card {
+    width: 380px;
+    background-color: #ffffff;
+    padding: 30px 35px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* HEADINGS */
+.login-card h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 22px;
+}
+
+/* FORM */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4b6cb7;
+}
+
+/* BUTTON */
+.btn {
+    width: 100%;
+    padding: 11px;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn.primary {
+    background-color: #4b6cb7;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn.primary:hover {
+    background-color: #2c3e50;
+}
+
+/* FOOTER */
+.login-footer {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.welcome-link {
+    font-size: 13px;
+    color: #777;
+    text-decoration: none;
+}
+
+.welcome-link:hover {
+    color: #333;
+    text-decoration: underline;
+}
